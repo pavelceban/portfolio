@@ -29,6 +29,10 @@ html {
     background: linear-gradient(90deg, rgba(186,173,173,1) 0%, rgba(57,53,53,1) 100%);
 }
 
+.nav-item {
+  font-size: 20px
+}
+
 .custom-shape-divider-bottom-1666060981 {
     position: absolute;
     bottom: 0;
@@ -57,18 +61,21 @@ html {
     font-weight: 450;
 }
 
+#h1 {
+  display: inline-block;
+  letter-spacing: 2px;
+  font-size: 50px;
+  font-weight: 500;
+}
+
 .p {
     font-size: 20px;
     font-weight: 500;
 }
 
+
 a {
-    background-image: linear-gradient(
-      to right,
-      white,
-      white 50%,
-      #000 50%
-    );
+    background-color: black;
     background-size: 200% 100%;
     background-position: -100%;
     display: inline-block;
@@ -267,7 +274,7 @@ a {
 #fragment {
   background: rgb(255,255,255);
   background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(136,123,123,1) 100%);
-    position: relative;
+  position: relative;
 }
 
 .custom-shape-divider-top-1666111140 {
@@ -296,7 +303,7 @@ a {
 }
 
 #fraghead {
-    padding-top: 150px;
+    padding-top: 200px;
 }
 
 main {
@@ -307,20 +314,18 @@ ul {
     list-style-type: none;
 }
 
+.typewrite {
+  text-decoration: none;
+}
+
 .skills-box li {
     font-size: 24px;
     padding-bottom: 5px;
 }
 
-.about-box {
-    height: 600px;
-    width: 100%;
-}
-
 #image {
-    height: 100%;
-    width: 100%;
     box-shadow: 10px 10px black;
+    border-radius: 100%;
 }
 
 .abouty-box {
@@ -339,4 +344,22 @@ ul {
 
 #resume-page {
   display: inline-block;
+}
+
+.white {
+  color: white;
+}
+
+footer {
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(136,123,123,1) 100%);
+  position: relative;
+}
+
+.diff-color {
+  stroke: grey;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
 }
